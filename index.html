@@ -329,12 +329,18 @@
         a.contact-link {
             text-decoration: none;
             display: inline-block;
+            position: relative;
+            z-index: 2;
+            padding: 8px 20px;
+            border: 1px solid var(--neon-cyan);
+            border-radius: 25px;
             transition: all 0.3s;
         }
 
         a.contact-link:hover {
-            color: #ffffff;
-            text-shadow: 0 0 10px rgba(232, 232, 232, 0.3);
+            color: #222222;
+            background: var(--neon-cyan);
+            text-shadow: none;
         }
 
         .domain-badge {
